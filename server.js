@@ -32,7 +32,7 @@ client.query('SELECT * FROM salesforce.broker__c', function(error, data) {
         console.log('Loading Demo Data...');
         require('./db/demo.js')(client);
         console.log('Done Loading Demo Data!');
-      }
+      }  
     });
   }
   else {
